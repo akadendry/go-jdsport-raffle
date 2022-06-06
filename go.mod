@@ -1,4 +1,4 @@
-module github.com/akadendry/go-jdsport-raffle/v2
+module github.com/akadendry/go-jdsport-raffle/v3
 
 go 1.18
 
@@ -14,7 +14,6 @@ require (
 )
 
 require (
-	github.com/akadendry/go-jdsport-raffle v0.0.0-20220606022437-7a46c7a9bfd4 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/gosimple/unidecode v1.0.1 // indirect

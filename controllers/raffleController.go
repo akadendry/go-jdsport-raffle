@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/akadendry/go-jdsport-raffle/v2/database"
+	"github.com/akadendry/go-jdsport-raffle/v3/database"
 
 	// "io/ioutil"
 	// "log"
@@ -17,10 +17,10 @@ import (
 	// "log"
 	"time"
 
-	// "github.com/akadendry/go-jdsport-raffle/v2/middlewares"
+	// "github.com/akadendry/go-jdsport-raffle/v3/middlewares"
 	"strconv"
 
-	"github.com/akadendry/go-jdsport-raffle/v2/models"
+	"github.com/akadendry/go-jdsport-raffle/v3/models"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm/clause"

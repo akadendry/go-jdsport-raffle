@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/akadendry/go-jdsport-raffle/v2/database"
-	"github.com/akadendry/go-jdsport-raffle/v2/models"
+	"github.com/akadendry/go-jdsport-raffle/v3/database"
+	"github.com/akadendry/go-jdsport-raffle/v3/models"
 
 	// "io/ioutil"
 	// "log"

@@ -10,9 +10,9 @@ RUN go mod download
 # COPY *.go ./
 COPY *.go ./
 
-RUN go build -o /github.com/akadendry/go-jdsport-raffle
+RUN go build -o /go-jdsport-raffle
 
 # Make sure to expose the port the HTTP server is using
 EXPOSE 8001
 # Run the app binary when we run the container
-ENTRYPOINT ["/github.com/akadendry/go-jdsport-raffle"]
+ENTRYPOINT ["/go-jdsport-raffle"]
