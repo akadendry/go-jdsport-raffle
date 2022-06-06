@@ -2,9 +2,9 @@ package routes
 
 import (
 
-	// "github.com/akadendry/go-jdsport-raffle/v2middlewares"
+	// "github.com/akadendry/go-jdsport-raffle/v1middlewares"
 
-	"github.com/akadendry/go-jdsport-raffle/v2/controllers"
+	"github.com/akadendry/go-jdsport-raffle/v1/controllers"
 	"github.com/gofiber/fiber/v2"
 )
 
