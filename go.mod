@@ -1,4 +1,4 @@
-module github.com/akadendry/go-jdsport-raffle/v3
+module github.com/akadendry/go-jdsport-raffle
 
 go 1.18
 

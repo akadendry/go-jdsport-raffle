@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"github.com/akadendry/go-jdsport-raffle/v3/util"
+	"github.com/akadendry/go-jdsport-raffle/util"
 
 	"github.com/gofiber/fiber/v2"
 )

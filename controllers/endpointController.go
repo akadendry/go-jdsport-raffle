@@ -3,13 +3,13 @@ package controllers
 import (
 	"os"
 
-	"github.com/akadendry/go-jdsport-raffle/v3/database"
-	"github.com/akadendry/go-jdsport-raffle/v3/models"
+	"github.com/akadendry/go-jdsport-raffle/database"
+	"github.com/akadendry/go-jdsport-raffle/models"
 
 	// "log"
 	"time"
 
-	// "github.com/akadendry/go-jdsport-raffle/v3/middlewares"
+	// "github.com/akadendry/go-jdsport-raffle/middlewares"
 
 	"strconv"
 
