@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/akadendry/go-jdsport-raffle/database"
-	"github.com/akadendry/go-jdsport-raffle/routes"
 	"log"
 	"os"
+
+	"github.com/akadendry/go-jdsport-raffle/database"
+	"github.com/akadendry/go-jdsport-raffle/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
