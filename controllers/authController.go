@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/akadendry/go-jdsport-raffle/database"
-	"github.com/akadendry/go-jdsport-raffle/models"
-	"github.com/akadendry/go-jdsport-raffle/util"
+	"github.com/akadendry/go-jdsport-raffle/v1/database"
+	"github.com/akadendry/go-jdsport-raffle/v1/models"
+	"github.com/akadendry/go-jdsport-raffle/v1/util"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm/clause"
