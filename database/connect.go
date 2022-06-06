@@ -3,7 +3,7 @@ package database
 import (
 	"os"
 
-	"github.com/akadendry/go-jdsport-raffle/models"
+	"github.com/akadendry/go-jdsport-raffle/v1/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

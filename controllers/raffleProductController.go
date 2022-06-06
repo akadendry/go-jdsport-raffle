@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/akadendry/go-jdsport-raffle/database"
-	// "github.com/akadendry/go-jdsport-raffle/middlewares"
-	"github.com/akadendry/go-jdsport-raffle/models"
+	"github.com/akadendry/go-jdsport-raffle/v1/database"
+	// "github.com/akadendry/go-jdsport-raffle/v1/middlewares"
+	"github.com/akadendry/go-jdsport-raffle/v1/models"
 
 	"github.com/gofiber/fiber/v2"
 )
