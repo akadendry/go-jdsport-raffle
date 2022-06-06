@@ -4,9 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/akadendry/go-jdsport-raffle/v1/database"
-	"github.com/akadendry/go-jdsport-raffle/v1/models"
-
 	// "io/ioutil"
 	// "log"
 	"math/rand"
@@ -16,6 +13,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akadendry/go-jdsport-raffle/v2/database"
+	"github.com/akadendry/go-jdsport-raffle/v2/models"
 	"github.com/gofiber/fiber/v2"
 )
 

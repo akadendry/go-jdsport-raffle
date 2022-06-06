@@ -4,23 +4,21 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/akadendry/go-jdsport-raffle/v1/database"
-
 	// "io/ioutil"
 	// "log"
 	"net/http"
 	"os"
 	"strings"
 
+	"github.com/akadendry/go-jdsport-raffle/v2/database"
+	"github.com/akadendry/go-jdsport-raffle/v2/models"
 	"github.com/gosimple/slug"
 
 	// "log"
 	"time"
 
-	// "github.com/akadendry/go-jdsport-raffle/v1/middlewares"
+	// "github.com/akadendry/go-jdsport-raffle/v2middlewares"
 	"strconv"
-
-	"github.com/akadendry/go-jdsport-raffle/v1/models"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm/clause"
